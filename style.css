@@ -253,6 +253,94 @@ body {
   margin-top: 5px;
 }
 
+.mobile-heading {
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+@media (min-width: 300px) and (max-width: 411px) {
+  .mobile-heading {
+    display: block;
+  }
+  .navbar {
+    margin-top: 2px;
+  }
+  .container {
+    /* border: solid wheat; */
+    padding: 2px;
+  }
+  .nav-links {
+    border: solid white;
+    gap: 2px;
+    display: none;
+  }
+  .links {
+    /* display: none; */
+    font-size: 1rem;
+  }
+  .hero-content h2 {
+    width: 200px;
+    font-size: 1.5rem;
+  }
+  .hero-content p {
+    width: 200px;
+    font-size: 0.9rem;
+  }
+  .hero-section {
+    height: 40vh;
+    background-position: center;
+  }
+  .about-card {
+    display: none;
+  }
+  .about-me {
+    display: block;
+    margin: 2px;
+  }
+  .about-content p {
+    width: 90vw;
+  }
+  .about-content h2 {
+    font-size: 3rem;
+  }
+
+  .proj-head {
+    font-size: 3rem;
+  }
+  .projects {
+    /* border: solid wheat; */
+    padding: 0;
+  }
+  .project-card {
+    /* border: solid white; */
+  }
+  .project-card h1 {
+    width: 100%;
+  }
+  .project-card p {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .technology-used {
+    margin-top: 30px;
+    margin-left: 4px;
+  }
+  .contact-me {
+    margin-left: 4px;
+  }
+  .footer-content {
+    padding: 10px;
+    margin: 10px;
+  }
+  .footer-content h2 {
+    font-size: 0.9rem;
+  }
+  .footer-links {
+    font-size: 0.6rem;
+  }
+}
+
 @media (min-width: 412px) and (max-width: 900px) {
   .navbar {
     margin-top: 5px;
