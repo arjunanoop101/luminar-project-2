@@ -1,0 +1,311 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+.container {
+  /* border: solid wheat; */
+  padding: 10px 200px;
+}
+
+body {
+  background-color: rgb(21, 19, 19);
+}
+
+.nav-links {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.links {
+  list-style: none;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+.links:hover {
+  cursor: pointer;
+  background-color: rgba(116, 116, 116, 0.341);
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/IMG-20250226-WA0015 (1).jpg") center/cover no-repeat;
+  margin-top: 50px;
+  height: 80vh;
+  border-radius: 20px;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.hero-content {
+  color: white;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 3rem;
+}
+.hero-content h2 {
+  font-size: 3rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+}
+
+.about-me {
+  margin-top: 40px;
+  color: white;
+  display: flex;
+}
+
+.about-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+}
+
+.git-button,
+.contact-btn {
+  color: white;
+  background-color: rgb(95, 161, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.about-card {
+  margin-left: 10px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.358);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 50%;
+}
+
+.resume-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.358);
+  padding: 10px 20px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.about-card h2 {
+  font-size: 1.5rem;
+}
+
+.projects {
+  color: white;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.project-card {
+  width: 100%;
+  margin: 10px;
+}
+
+.project-card h1 {
+  width: 50%;
+}
+.project-card p {
+  width: 50%;
+  color: gray;
+}
+
+.more-projects {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.project-btn {
+  background-color: gray;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.technology-used {
+  /* border: solid white; */
+  color: white;
+  margin-top: 40px;
+}
+
+.used-content h1 {
+  font-size: 2rem;
+}
+.used-content p {
+  color: gray;
+}
+
+.used-btn {
+  margin-top: 30px;
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 800;
+}
+
+.used-btn:hover {
+  background-color: rgb(73, 73, 73);
+}
+
+.contact-me {
+  color: white;
+  margin-top: 40px;
+}
+
+.form {
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: rgba(96, 96, 96, 0.068);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px 15px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-me-btn {
+  align-self: flex-start;
+  padding: 10px 15px;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  border: 1px solid gray;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-me-btn:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+.footer {
+  margin-top: 40px;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 15px;
+}
+
+.footer-links {
+  list-style: none;
+  color: gray;
+  margin-top: 5px;
+}
+
+@media (min-width: 412px) and (max-width: 900px) {
+  .navbar {
+    margin-top: 5px;
+  }
+  .container {
+    /* border: solid wheat; */
+    padding: 5px;
+  }
+  .nav-links {
+    /* border: solid white; */
+  }
+  .links {
+    /* display: none; */
+    font-size: 1rem;
+  }
+  .hero-content h2 {
+    width: 300px;
+    font-size: 2rem;
+  }
+  .hero-content p {
+    width: 300px;
+  }
+  .hero-section {
+    height: 50vh;
+    background-position: center;
+  }
+  .about-card {
+    display: none;
+  }
+  .about-me {
+    display: block;
+  }
+  .about-content p {
+    width: 90vw;
+  }
+  .about-content h2 {
+    font-size: 3rem;
+  }
+
+  .proj-head {
+    font-size: 3rem;
+  }
+  .projects {
+    /* border: solid wheat; */
+  }
+  .project-card {
+    /* border: solid white; */
+  }
+  .project-card h1 {
+    width: 100%;
+  }
+  .project-card p {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
